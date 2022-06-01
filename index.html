@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TI Firma de correos</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="img/gallinita.jpg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css?v=2" type="text/css" />
+        <script src="html2canva.js" type="text/javascript"></script>
+        <script src="index.js?v=2" type="text/javascript"></script>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+    </head>
+    <body>
+        <form>
+            <table>
+                <tbody>
+                <td>
+                    <textarea id="message">“El contenido de este mensaje y de los archivos adjuntos están dirigidos exclusivamente a sus destinatarios y puede contener información privilegiada o confidencial. Si usted no es el destinatario real, por favor informe de ello al remitente y elimine el mensaje de inmediato, de tal manera que no pueda acceder a él de nuevo. Está prohibida su retención, grabación, utilización o divulgación con cualquier propósito. Este mensaje ha sido verificado con software antivirus; sin embargo, el remitente no se hace responsable en caso de que en éste o en los archivos adjuntos haya presencia de algún virus que pueda generar daños en los equipos o programas del destinatario.
+
+This e-mail and its attachments may contain privileged or confidential information and are addressed exclusively to their intended recipients. If you are not the intended recipient, please notify the sender immediately and delete this e-mail and its attachments from your system. The storage, recording, use or disclosure of this e-mail and its attachments by anyone other than the intended recipient is strictly prohibited. This message has been verified using antivirus software; however, the sender is not responsible for any damage to hardware or software resulting from the presence of any virus.”</textarea>
+                </td>
+                <td>
+                    <div>Empresa: </div>
+                    <select id="slcEnterprise">
+                        <option value="1">LNA</option>
+                        <option value="2">LBV</option>
+                    </select>
+                </td>
+                <td>
+                    <div>Nombre: </div>
+                    <textarea id="txtName"></textarea><br />
+                </td>
+                <td>
+                    <div>Cargo: </div>
+                    <textarea id="txtCargo"></textarea><br />
+                </td>
+                <td>
+                    <div>Telefono: </div>
+                    <textarea id="txtTel"></textarea><br />
+                </td>
+                <td>
+                    <div>Celular: </div>
+                    <textarea id="txtCel"></textarea><br />
+                </td>
+                <td>
+                    <div>Email: </div>
+                    <textarea id="txtMail"></textarea><br />
+                </td>
+                <td>
+                    <button continue type="button">Procesar</button>
+                </td>
+                </tbody>
+            </table>
+        </form>
+        <br />
+        <div class="content">
+            <div id="carnet"></div>
+        </div>
+        <div id="previewImg"></div>
+    </body>
+</html>

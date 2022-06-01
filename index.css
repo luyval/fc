@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.content, #carnet.lna {
+    height: 110px;
+    float: left;
+    width: auto;
+    overflow: hidden;
+}
+.content{
+    box-shadow: 0px 0px 10px gray;
+}
+#carnet.lna > img{
+    vertical-align: top;  
+    height: 110px;
+    width: auto;
+}
+#carnet.lna > div, #carnet.lna > img{
+    display: inline-block;
+}
+#carnet.lna > #text, #carnet.lna > #text > label {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(49,104,160);
+    font-size: 12px;
+}
+#carnet.lna > #text {
+    font-weight: 600;
+    width: auto;
+    display: inline-flex;
+    height: 110px;
+    justify-content: center;
+    align-items: center;
+}
+#carnet.lna > #text > div{
+    text-align: justify;
+    width: auto;
+}
+#carnet.lna > #text > div > label.name {
+    color: rgb(49,104,160);
+    font-weight: bolder;
+    font-size: 13px;
+} 
+#carnet.lna > #text > div > label.email {
+    color: rgb(49,104,160);
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 12px;
+} 
